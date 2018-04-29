@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta charset="utf-8">
+  <style>
+    #map1 {
+      height: 180px;
+      width: 300px;
+      margin-top: 20px;
+    }
+    .category {
+      float: left;
+      margin-right: 50px;
+      margin-top: 0px;
+      margin-bottom: 50px;
+    }
+    .info {
+      margin-top: 0px;
+    }
+  </style>
+</head>
+<body>
+  <article class="highlightslist <% if (pageID == 'home') { %>jumbotron hidden-xs<% } %>">
+    <div class="container">
+      <div class="row">
+        <% highlights.forEach(function(item) { %>
+        <div class="<% if (pageID == 'home') { %>col-sm-6 col-md-4 col-lg-3 text-center<% } else { %>col-sm-8 <% } %>">
+          <h3 class="highlightslist-title"><%= item.site %></h3>
+          <h5 class="highlightslist-name">with <a href="/highlights/<%= item.id %>"><%= item.site %></a></h5>
+          <div class="highlightslist-info">
+            <a href="/highlights/<%= item.id %>">
+
+              <% if (pageID == 'home') { %>
+              <img class="highlightslist-img img-circle" width="250" height="250" src="<%= item.image %>" alt="Photo of <%= item.site %>"></a>
+              <% } %>
+
+              <% if (pageID == 'highlightList') { %>
+              <img class="highlightslist-img img-circle pull-left" width="250" height="250" src="<%= item.image %>" alt="Photo of <%= item.site %>"></a>
+              <% } %>
+            </a>
+
+            <% if (pageID == 'highlightDetail') { %>
+            <img class="highlightslist-img img-responsive pull-left" width="900" height="600" src="<%= item.image %>" alt="Photo of <%= item.site %>"></a>
+            <% } %>
+          </a>
+          <%- item.info %>
+
+              <div id="map1" style="float: right"> </div>
+          <% if (pageID !== 'home') { %>
+          <% if (pageID == 'highlightList') { %>
+          <figure>
+            <iframe width="350" height="200" src="<%= item.videoEmbed %>" frameborder="0" allowfullscreen></iframe>
+          </figure>
+          <% } else { %>
+          <figure>
+            <iframe width="350" height="200" src="<%= item.videoEmbed %>" frameborder="0" allowfullscreen></iframe>
+          </figure>
+
+          <script>
+
+            var map1;
+            function initMap() {
+              var centerPos1 = {lat: <%= item.lat %>, lng: <%= item.long %>};
+              geocoder = new google.maps.Geocoder();
+              map1 = new google.maps.Map(document.getElementById('map1'), {
+                center: centerPos1,
+                zoom: 10,
+                draggable: true,
+                scrollwheel: true,
+              });
+              placeMarker();
+            }
+            function placeMarker() {
+              var marker = new google.maps.Marker({
+                map: map1,
+                position: {lat: <%= item.lat %>, lng: <%= item.long %>}
+              });
+              var h2String = "<h2>" + "<%= item.id %>" + "</h2>";
+              var p1String = "<p class='category'>" + "<%= item.category %>" + "</p>";
+              var p2String = "<p class='info'>" + "<%= item.info %>" + "</p>";
+              var infowindow = new google.maps.InfoWindow({
+                width: 400
+              });
+            }
+          </script>
+
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkGXKqryRAntACFGym5tBgcd06J1qefRk&callback=initMap"
+          async defer>
+          </script>
+          <% } %>
+          <% } %>
+        </div>
+      </div>
+      <%  }); %>
+    </div><!-- row -->
+  </div><!-- container -->
+</article>
+</body>
+</html>

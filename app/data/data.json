@@ -1,0 +1,78 @@
+{"data":
+  {
+    "bgImage": "http://globalbalita.com/wp-content/uploads/2017/04/Chinese-Dragon-at-Dusk.jpg",
+    "highlights":[
+      {"id":"1",
+        "site":"Qingdao",
+        "category":"Site",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "lat": "36.0671",
+        "long": "120.3826",
+        "image": "https://secure.i.telegraph.co.uk/multimedia/archive/03608/china-qingdao_3608577b.jpg",
+        "video": "https://www.youtube.com/watch?v=r-Ne2c2oyU0",
+        "videoEmbed":"https://www.youtube.com/embed/r-Ne2c2oyU0"
+
+      },
+      {"id":"2",
+        "site":"Shanxi",
+        "category":"Mountain",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "lat": "37.2426",
+        "long": "111.8569",
+        "image": "http://www.chinafolio.com/wp-content/uploads/2013/07/shutterstock_119192116-Shanxi-Stone-carving-Mengshan-Buddha-300x210.jpg",
+        "video": "https://www.youtube.com/watch?v=UuwkTqL_1wo",
+        "videoEmbed": "https://www.youtube.com/embed/UuwkTqL_1wo"
+      },
+      {"id":"3",
+        "site":"Wuhan",
+        "category":"city",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "lat": "30.5928",
+        "long": "114.3055",
+        "image": "http://paris.utdallas.edu/tsa16/images/city-1.jpg",
+        "video": "https://www.youtube.com/watch?v=CMtM5mQ9eWo",
+        "videoEmbed": "https://www.youtube.com/embed/CMtM5mQ9eWo"
+      },
+      {"id":"4",
+        "site":"Shanghai",
+        "category":"City",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "lat": "31.2304",
+        "long": "121.4737",
+        "image": "https://duranvirginia.files.wordpress.com/2014/09/virginia-duran-blog-sites-to-take-the-best-skyline-pictures-in-shanghai-vue-bar.jpg",
+        "video": "https://www.youtube.com/watch?v=s-uYcyscTio",
+        "videoEmbed": "https://www.youtube.com/embed/s-uYcyscTio"
+      },
+      {"id":"5",
+        "site":"Beijing",
+        "category":"City",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "lat": "39.9042",
+        "long": "116.4074",
+        "image": "https://www.airpano.ru/files/zurich_01_big.jpg",
+        "video": "https://www.youtube.com/watch?v=-UuJxmU6OCQ",
+        "videoEmbed": "https://www.youtube.com/embed/-UuJxmU6OCQ"
+      },
+      {"id":"6",
+        "site":"Xian",
+        "category":"city",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "lat": "34.3416",
+        "long": "108.9398",
+        "image": "http://www.pilotguides.com/wordpress/wp-content/uploads/2013/01/Xian_China_Terracotta-Army-Museum-02-640x280.jpg",
+        "video": "https://www.youtube.com/watch?v=QLciJq4QO4k",
+        "videoEmbed": "https://www.youtube.com/embed/QLciJq4QO4k"
+      },
+      {"id":"7",
+        "site":"Taiwan",
+        "category":"city",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "lat": "23.6978",
+        "long": "120.9605",
+        "image": "https://studyabroad.state.gov/sites/default/files/taiwan.jpg",
+        "video": "https://www.youtube.com/watch?v=Y2OnVFQZL9c",
+        "videoEmbed": "https://www.youtube.com/embed/Y2OnVFQZL9c"
+      }
+    ]
+  }
+}
